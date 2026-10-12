@@ -159,14 +159,14 @@ CREATE DATABASE ocr_db;
 ### 2. Spring Boot
 
 ```bash
-cd projetStageOcr/projetStageOcr
+cd backendSpring
 ./mvnw spring-boot:run
 ```
 
 ### 3. FastAPI
 
 ```bash
-cd FASTAPI/FASTAPI
+cd FASTAPI
 pip install -r requirements.txt
 uvicorn app:app --reload --port 8000
 ```
